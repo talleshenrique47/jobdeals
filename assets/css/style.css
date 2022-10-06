@@ -45,6 +45,10 @@ header {
     align-items: center;
 }
 
+.logo img {
+    max-width: 100%;
+}
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -569,36 +573,50 @@ footer {
 
 @media (max-width: 920px) {
     .index-text h1 {
-        font-weight: 400;
         font-size: 2.5rem;
-        line-height: 65px;
-        text-align: center;
     }
     .index-text p {
-        font-weight: 400;
         font-size: 1.3rem;
-        line-height: 28px;
-        margin-top: 1.5rem;
-        text-align: center;
     }
     footer {
-        height: 20rem;
+        height: 25rem;
     }
     .foot-bar {
         flex-direction: column;
         align-items: center;
     }
     .foot-logo {
-        align-self: center;
-        margin: 0;
+        margin: 0 3rem;
     }
     .foot-list{
-        margin-top: 10px;
+        margin: 2rem 0 3rem 0;
     }
 }
 
 @media (max-width: 530px) {
+    .logo {
+        width: 180px;
+        height: 36px;
+    }
+    .nav-bar {
+        padding: 1.5rem 2rem;
+    }
+    .index-text h1 {
+        font-size: 2rem;
+    }
+    .index-text p {
+        font-size: 1rem;
+    }
     .pricing ul {
         width: 20rem;
+    }
+    .index-buttons {
+        flex-direction: column;
+    }
+    .container {
+        height: 80vh;
+    }
+    .searchbar-keyword {
+        width: 300px;
     }
 }
