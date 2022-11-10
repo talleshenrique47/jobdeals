@@ -278,6 +278,10 @@ form-he
 }
 
 @media (max-width: 480px) {
+    body{
+        background-image: none;
+    }
+    
     .container2{
         padding-top: 2rem;
     }

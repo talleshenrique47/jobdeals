@@ -273,8 +273,12 @@ body {
 }
 
 @media (max-width: 480px) {
+    body{
+        background-image: none;
+    }
+    
     .container2{
-        padding-top: 0;
+        padding-top: 2rem;
     }
 
     .form form{
