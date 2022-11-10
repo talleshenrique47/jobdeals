@@ -273,6 +273,10 @@ body {
 }
 
 @media (max-width: 480px) {
+    .container2{
+        display: none;
+    }
+
     .form form{
         width: 400px;
         height: 600px;
@@ -286,5 +290,28 @@ body {
     .continue-button button{
         width: 336px;
         height: 50px;
+    }
+}
+
+@media (max-width: 400px){
+    .form form{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        align-items: center;
+    }
+
+    .input-box input {
+        width: 216px;
+    }
+
+    .input-group{
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .continue-button button{
+        width: 216px;
     }
 }
