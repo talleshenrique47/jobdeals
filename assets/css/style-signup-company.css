@@ -267,7 +267,7 @@ body {
 @media (max-width: 630px) {
     .container{
         width: 100vw;
-        height: 50rem;
+        height: 55rem;
         border-radius: 0;
     }
 }
