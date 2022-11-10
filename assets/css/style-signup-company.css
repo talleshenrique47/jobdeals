@@ -267,16 +267,12 @@ body {
 @media (max-width: 630px) {
     .container{
         width: 100vw;
-        height: 48rem;
+        height: 50rem;
         border-radius: 0;
     }
 }
 
 @media (max-width: 480px) {
-    body{
-        background-image: none;
-    }
-    
     .container2{
         padding-top: 2rem;
     }

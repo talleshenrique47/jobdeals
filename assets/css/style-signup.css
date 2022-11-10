@@ -272,7 +272,7 @@ form-he
 @media (max-width: 630px) {
     .container{
         width: 100vw;
-        height: 48rem;
+        height: 50rem;
         border-radius: 0;
     }
 }
@@ -281,7 +281,7 @@ form-he
     body{
         background-image: none;
     }
-    
+
     .container2{
         padding-top: 2rem;
     }
