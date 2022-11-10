@@ -267,14 +267,14 @@ body {
 @media (max-width: 630px) {
     .container{
         width: 100vw;
-        height: 100vh;
+        height: 48rem;
         border-radius: 0;
     }
 }
 
 @media (max-width: 480px) {
     .container2{
-        display: none;
+        padding-top: 2rem;
     }
 
     .form form{
@@ -294,11 +294,18 @@ body {
 }
 
 @media (max-width: 400px){
+    .container2{
+        padding-top: 0;
+    }
+
     .form form{
-        width: 100vw;
-        height: 100vh;
-        border-radius: 0;
+        width: 300px;
+        height: 500px;
         align-items: center;
+    }
+    
+    .signup-button{
+        padding-bottom: 1.5rem;
     }
 
     .input-box input {
