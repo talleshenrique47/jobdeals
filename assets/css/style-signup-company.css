@@ -274,7 +274,7 @@ body {
 
 @media (max-width: 480px) {
     .container2{
-        padding-top: 2rem;
+        padding-top: 0;
     }
 
     .form form{
