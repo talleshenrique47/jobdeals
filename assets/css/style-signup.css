@@ -272,7 +272,7 @@ form-he
 @media (max-width: 630px) {
     .container{
         width: 100vw;
-        height: 55rem;
+        height: 48rem;
         border-radius: 0;
     }
 }
@@ -285,14 +285,6 @@ form-he
     .form form{
         width: 400px;
         height: 600px;
-    }
-
-    .input-box input#firstname{
-        width: 336px;
-    }
-    
-    .input-box input#lastname{
-        width: 336px;
     }
 
     .input-box input {
@@ -308,7 +300,7 @@ form-he
 
 @media (max-width: 400px){
     .container2{
-        padding-top: 1rem;
+        padding-top: 0;
     }
 
     .form form{
@@ -316,7 +308,7 @@ form-he
         height: 600px;
         align-items: center;
     }
-
+    
     .signup-button{
         padding-bottom: 1.5rem;
     }

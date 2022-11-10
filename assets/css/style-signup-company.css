@@ -308,6 +308,14 @@ body {
         padding-bottom: 1.5rem;
     }
 
+    .input-box input#firstname{
+        width: 216px;
+    }
+    
+    .input-box input#lastname{
+        width: 216px;
+    }
+
     .input-box input {
         width: 216px;
     }
